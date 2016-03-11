@@ -1,0 +1,8 @@
+1)ф7 слои
+2) ctrl+r -линейка
+3)alt f9 -панель операции
+4)ctrl+alt+shift+s-сохранить для Веб
+5)ctrl+ n -новое фон/изображение.
+
+RDB client for ubuntu
+Remmina

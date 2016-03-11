@@ -1,0 +1,43 @@
+body{
+width: 100%;
+height: 100%;	
+background-image: url(../img/fon.png);
+background-repeat: repeat;
+}
+
+.news,
+.buttonUp,
+.buttonDown{
+display: inline-block;
+}
+
+.buttonUp,
+.buttonDown{
+	width: 10px;
+	height: 10px;
+	background-color: #fff;
+	border-radius: 2px;
+	position: relative;
+}
+.buttonUp:after{
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-top: 5px solid #888;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	bottom: -8px;
+	left: 40px;
+}
+.buttonDown:after{
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-bottom: 5px solid #888;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	bottom: -8px;
+	left: 40px;
+}
